@@ -4,12 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Crypto from './Components/Crypto'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
- 
+        
         <Crypto></Crypto>
     </>
   )

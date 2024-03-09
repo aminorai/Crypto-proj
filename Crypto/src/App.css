@@ -9,7 +9,40 @@ body{
   background-size: clamp(1367px,100%,80px);
   /* background: url(../image/City\ Buildings\ HD\ Wallpaper\ 38.jpg)center center no-repeat; */
 }
-.logo {
+.img-header{
+  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  width: 100%;
+  padding: 11px;
+ 
+  
+}
+.img-header:hover{
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  width: 100%;
+  padding: 11px;
+  
+}
+.bg-form{
+  background: #43C6AC;
+  background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  
+  background: linear-gradient(to right, #F8FFAE, #43C6AC); 
+   
+  
+  }
+  .img-header h1{
+    background: -webkit-radial-gradient(
+  circle,
+  rgb(119, 114, 214) 0%,
+  rgb(238, 129, 28) 21%,
+  rgba(6, 84, 170, 1) 51%,
+  rgba(0, 255, 113, 1) 100%
+ );
+ -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+   
+    
+  }
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -43,4 +76,4 @@ body{
 
 .read-the-docs {
   color: #888;
-}
+} */
